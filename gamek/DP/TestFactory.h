@@ -19,9 +19,11 @@ enum TestType {
 class TestFactory {
 public:
     ITest *createTestByType (TestType type) {
-//        if (type == TEST_ADAPTER){
+        if (type == TEST_ADAPTER){
             return new TestAdapter ();
-//        }
+        }
+        
+        return nullptr;
     }
 };
 
