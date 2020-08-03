@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F6EB69224C2B8220078C4B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EB69124C2B8220078C4B9 /* main.cpp */; };
+		5F5E4E3A24D7EE6B0094B69E /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E4E3824D7EE6B0094B69E /* Sort.cpp */; };
+		5F5E4E3D24D7FC7C0094B69E /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E4E3B24D7FC7C0094B69E /* Search.cpp */; };
+		5F6EB69224C2B8220078C4B9 /* main2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EB69124C2B8220078C4B9 /* main2.cpp */; };
 		5FB4E24524D6B4C600D0AD93 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E24324D6B4C600D0AD93 /* User.cpp */; };
 		5FB4E24824D6B51900D0AD93 /* UserAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E24624D6B51900D0AD93 /* UserAdapter.cpp */; };
 		5FB4E24C24D6B5C000D0AD93 /* TestAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E24A24D6B5C000D0AD93 /* TestAdapter.cpp */; };
+		5FB4E25124D6CD2700D0AD93 /* PracticalSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E24F24D6CD2700D0AD93 /* PracticalSocket.cpp */; };
+		5FB4E25624D6D07000D0AD93 /* TCPEchoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */; };
+		5FB4E25824D6D25E00D0AD93 /* TCPEchoClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */; };
+		5FB4E25C24D6D39500D0AD93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25B24D6D39500D0AD93 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +32,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F5E4E3824D7EE6B0094B69E /* Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
+		5F5E4E3924D7EE6B0094B69E /* Sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sort.hpp; sourceTree = "<group>"; };
+		5F5E4E3B24D7FC7C0094B69E /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
+		5F5E4E3C24D7FC7C0094B69E /* Search.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Search.hpp; sourceTree = "<group>"; };
 		5F6EB68E24C2B8220078C4B9 /* gamek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gamek; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6EB69124C2B8220078C4B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5F6EB69124C2B8220078C4B9 /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
 		5FB4E24324D6B4C600D0AD93 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
 		5FB4E24424D6B4C600D0AD93 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
 		5FB4E24624D6B51900D0AD93 /* UserAdapter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UserAdapter.cpp; sourceTree = "<group>"; };
@@ -36,6 +46,11 @@
 		5FB4E24A24D6B5C000D0AD93 /* TestAdapter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestAdapter.cpp; sourceTree = "<group>"; };
 		5FB4E24B24D6B5C000D0AD93 /* TestAdapter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestAdapter.hpp; sourceTree = "<group>"; };
 		5FB4E24D24D6C06100D0AD93 /* TestFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFactory.h; sourceTree = "<group>"; };
+		5FB4E24F24D6CD2700D0AD93 /* PracticalSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PracticalSocket.cpp; sourceTree = "<group>"; };
+		5FB4E25024D6CD2700D0AD93 /* PracticalSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PracticalSocket.hpp; sourceTree = "<group>"; };
+		5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoServer.cpp; sourceTree = "<group>"; };
+		5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoClient.cpp; sourceTree = "<group>"; };
+		5FB4E25B24D6D39500D0AD93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F5E4E3524D7EE280094B69E /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5F5E4E3824D7EE6B0094B69E /* Sort.cpp */,
+				5F5E4E3924D7EE6B0094B69E /* Sort.hpp */,
+				5F5E4E3B24D7FC7C0094B69E /* Search.cpp */,
+				5F5E4E3C24D7FC7C0094B69E /* Search.hpp */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 		5F6EB68524C2B8220078C4B9 = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +94,13 @@
 		5F6EB69024C2B8220078C4B9 /* gamek */ = {
 			isa = PBXGroup;
 			children = (
+				5F5E4E3524D7EE280094B69E /* Algorithm */,
+				5FB4E24E24D6CCE200D0AD93 /* Socket */,
 				5FB4E24124D6B47100D0AD93 /* DP */,
-				5F6EB69124C2B8220078C4B9 /* main.cpp */,
+				5F6EB69124C2B8220078C4B9 /* main2.cpp */,
+				5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */,
+				5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */,
+				5FB4E25B24D6D39500D0AD93 /* main.cpp */,
 			);
 			path = gamek;
 			sourceTree = "<group>";
@@ -95,6 +126,15 @@
 				5FB4E24B24D6B5C000D0AD93 /* TestAdapter.hpp */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5FB4E24E24D6CCE200D0AD93 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4E24F24D6CD2700D0AD93 /* PracticalSocket.cpp */,
+				5FB4E25024D6CD2700D0AD93 /* PracticalSocket.hpp */,
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +194,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5E4E3A24D7EE6B0094B69E /* Sort.cpp in Sources */,
+				5FB4E25824D6D25E00D0AD93 /* TCPEchoClient.cpp in Sources */,
 				5FB4E24524D6B4C600D0AD93 /* User.cpp in Sources */,
+				5F5E4E3D24D7FC7C0094B69E /* Search.cpp in Sources */,
+				5FB4E25624D6D07000D0AD93 /* TCPEchoServer.cpp in Sources */,
+				5FB4E25124D6CD2700D0AD93 /* PracticalSocket.cpp in Sources */,
 				5FB4E24C24D6B5C000D0AD93 /* TestAdapter.cpp in Sources */,
-				5F6EB69224C2B8220078C4B9 /* main.cpp in Sources */,
+				5F6EB69224C2B8220078C4B9 /* main2.cpp in Sources */,
+				5FB4E25C24D6D39500D0AD93 /* main.cpp in Sources */,
 				5FB4E24824D6B51900D0AD93 /* UserAdapter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
