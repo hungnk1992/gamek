@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F29679B24DA4728007501C8 /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F29679924DA4728007501C8 /* Singleton.cpp */; };
+		5F29679E24DA4891007501C8 /* TestSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F29679C24DA4891007501C8 /* TestSingleton.cpp */; };
 		5F5E4E3A24D7EE6B0094B69E /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E4E3824D7EE6B0094B69E /* Sort.cpp */; };
 		5F5E4E3D24D7FC7C0094B69E /* Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E4E3B24D7FC7C0094B69E /* Search.cpp */; };
 		5F6EB69224C2B8220078C4B9 /* main2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EB69124C2B8220078C4B9 /* main2.cpp */; };
@@ -17,6 +19,9 @@
 		5FB4E25624D6D07000D0AD93 /* TCPEchoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */; };
 		5FB4E25824D6D25E00D0AD93 /* TCPEchoClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */; };
 		5FB4E25C24D6D39500D0AD93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4E25B24D6D39500D0AD93 /* main.cpp */; };
+		5FCDE58024D9123B0071F6F6 /* AutoMailer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDE57E24D9123B0071F6F6 /* AutoMailer.cpp */; };
+		5FCDE58324D914F10071F6F6 /* OUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDE58124D914F10071F6F6 /* OUser.cpp */; };
+		5FCDE58624D916680071F6F6 /* TestObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDE58424D916680071F6F6 /* TestObserver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F29679924DA4728007501C8 /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		5F29679A24DA4728007501C8 /* Singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
+		5F29679C24DA4891007501C8 /* TestSingleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSingleton.cpp; sourceTree = "<group>"; };
+		5F29679D24DA4891007501C8 /* TestSingleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestSingleton.hpp; sourceTree = "<group>"; };
 		5F5E4E3824D7EE6B0094B69E /* Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
 		5F5E4E3924D7EE6B0094B69E /* Sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sort.hpp; sourceTree = "<group>"; };
 		5F5E4E3B24D7FC7C0094B69E /* Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Search.cpp; sourceTree = "<group>"; };
@@ -51,6 +60,14 @@
 		5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoServer.cpp; sourceTree = "<group>"; };
 		5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoClient.cpp; sourceTree = "<group>"; };
 		5FB4E25B24D6D39500D0AD93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5FCDE57C24D9105B0071F6F6 /* IObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
+		5FCDE57D24D910E50071F6F6 /* IObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObservable.h; sourceTree = "<group>"; };
+		5FCDE57E24D9123B0071F6F6 /* AutoMailer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutoMailer.cpp; sourceTree = "<group>"; };
+		5FCDE57F24D9123B0071F6F6 /* AutoMailer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutoMailer.hpp; sourceTree = "<group>"; };
+		5FCDE58124D914F10071F6F6 /* OUser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OUser.cpp; sourceTree = "<group>"; };
+		5FCDE58224D914F10071F6F6 /* OUser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OUser.hpp; sourceTree = "<group>"; };
+		5FCDE58424D916680071F6F6 /* TestObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestObserver.cpp; sourceTree = "<group>"; };
+		5FCDE58524D916680071F6F6 /* TestObserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestObserver.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F29679824DA4713007501C8 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				5F29679924DA4728007501C8 /* Singleton.cpp */,
+				5F29679A24DA4728007501C8 /* Singleton.hpp */,
+				5F29679C24DA4891007501C8 /* TestSingleton.cpp */,
+				5F29679D24DA4891007501C8 /* TestSingleton.hpp */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		5F5E4E3524D7EE280094B69E /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +136,8 @@
 		5FB4E24124D6B47100D0AD93 /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				5F29679824DA4713007501C8 /* Singleton */,
+				5FCDE57B24D910400071F6F6 /* Observer */,
 				5FB4E24224D6B49900D0AD93 /* Adapter */,
 				5FB4E24924D6B58600D0AD93 /* ITest.h */,
 				5FB4E24D24D6C06100D0AD93 /* TestFactory.h */,
@@ -135,6 +165,21 @@
 				5FB4E25024D6CD2700D0AD93 /* PracticalSocket.hpp */,
 			);
 			path = Socket;
+			sourceTree = "<group>";
+		};
+		5FCDE57B24D910400071F6F6 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				5FCDE57C24D9105B0071F6F6 /* IObserver.h */,
+				5FCDE57D24D910E50071F6F6 /* IObservable.h */,
+				5FCDE57E24D9123B0071F6F6 /* AutoMailer.cpp */,
+				5FCDE57F24D9123B0071F6F6 /* AutoMailer.hpp */,
+				5FCDE58124D914F10071F6F6 /* OUser.cpp */,
+				5FCDE58224D914F10071F6F6 /* OUser.hpp */,
+				5FCDE58424D916680071F6F6 /* TestObserver.cpp */,
+				5FCDE58524D916680071F6F6 /* TestObserver.hpp */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,15 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCDE58324D914F10071F6F6 /* OUser.cpp in Sources */,
+				5F29679B24DA4728007501C8 /* Singleton.cpp in Sources */,
 				5F5E4E3A24D7EE6B0094B69E /* Sort.cpp in Sources */,
 				5FB4E25824D6D25E00D0AD93 /* TCPEchoClient.cpp in Sources */,
 				5FB4E24524D6B4C600D0AD93 /* User.cpp in Sources */,
 				5F5E4E3D24D7FC7C0094B69E /* Search.cpp in Sources */,
+				5F29679E24DA4891007501C8 /* TestSingleton.cpp in Sources */,
 				5FB4E25624D6D07000D0AD93 /* TCPEchoServer.cpp in Sources */,
 				5FB4E25124D6CD2700D0AD93 /* PracticalSocket.cpp in Sources */,
+				5FCDE58024D9123B0071F6F6 /* AutoMailer.cpp in Sources */,
 				5FB4E24C24D6B5C000D0AD93 /* TestAdapter.cpp in Sources */,
 				5F6EB69224C2B8220078C4B9 /* main2.cpp in Sources */,
 				5FB4E25C24D6D39500D0AD93 /* main.cpp in Sources */,
+				5FCDE58624D916680071F6F6 /* TestObserver.cpp in Sources */,
 				5FB4E24824D6B51900D0AD93 /* UserAdapter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
