@@ -60,6 +60,7 @@
 		5FB4E25524D6D07000D0AD93 /* TCPEchoServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoServer.cpp; sourceTree = "<group>"; };
 		5FB4E25724D6D25E00D0AD93 /* TCPEchoClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPEchoClient.cpp; sourceTree = "<group>"; };
 		5FB4E25B24D6D39500D0AD93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5FC5644D255EF42000FD2909 /* Decorator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Decorator; sourceTree = "<group>"; };
 		5FCDE57C24D9105B0071F6F6 /* IObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
 		5FCDE57D24D910E50071F6F6 /* IObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObservable.h; sourceTree = "<group>"; };
 		5FCDE57E24D9123B0071F6F6 /* AutoMailer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutoMailer.cpp; sourceTree = "<group>"; };
@@ -136,6 +137,8 @@
 		5FB4E24124D6B47100D0AD93 /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				5FC5644D255EF42000FD2909 /* Decorator */,
+				5FC56449255EF3B700FD2909 /* New Group */,
 				5F29679824DA4713007501C8 /* Singleton */,
 				5FCDE57B24D910400071F6F6 /* Observer */,
 				5FB4E24224D6B49900D0AD93 /* Adapter */,
@@ -165,6 +168,13 @@
 				5FB4E25024D6CD2700D0AD93 /* PracticalSocket.hpp */,
 			);
 			path = Socket;
+			sourceTree = "<group>";
+		};
+		5FC56449255EF3B700FD2909 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		5FCDE57B24D910400071F6F6 /* Observer */ = {

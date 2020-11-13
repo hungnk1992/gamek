@@ -8,7 +8,8 @@
 void testDesignPattern (){
     TestFactory *factory = new TestFactory ();
 //    ITest *test = factory->createTestByType(TEST_OBSERVER);
-    ITest *test = factory->createTestByType(TEST_SINGLETON);
+//    ITest *test = factory->createTestByType(TEST_SINGLETON);
+    ITest *test = factory->createTestByType(TEST_DECORATOR);
     test->test();
 }
 
@@ -27,21 +28,6 @@ union date {
 };
 
 int main (){
-//    testDesignPattern();
-//    date dt;
-//    cout << sizeof(dt) << endl;
-//
-//    dt.day = 4;
-//    dt.month = 8;
-//
-//    cout << sizeof(dt) << endl;
-//
-//    cout << dt.day << " -- " << dt.month << endl;
-    int x = 5;
-    
-    [&] {
-        cout << x;
-    }();
-//    cout << rt << endl;
+    testDesignPattern();
     return 0;
 }

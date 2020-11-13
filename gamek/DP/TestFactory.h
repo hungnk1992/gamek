@@ -12,12 +12,14 @@
 #include "Adapter/TestAdapter.hpp"
 #include "Observer/TestObserver.hpp"
 #include "Singleton/TestSingleton.hpp"
+#include "Decorator/TestDecorator.hpp"
 #include "ITest.h"
 
 enum TestType {
     TEST_ADAPTER,
     TEST_OBSERVER,
     TEST_SINGLETON,
+    TEST_DECORATOR,
 };
 
 class TestFactory {
@@ -29,6 +31,9 @@ public:
             return new TestObserver();
         } else if (type == TEST_SINGLETON){
             return new TestSingleton();
+        } else if (type == TEST_DECORATOR){
+            cout << "Test Decorator" << endl;
+            return new TestDecorator();
         }
         
         return nullptr;
